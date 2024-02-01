@@ -1,0 +1,6 @@
+train: C:\Users\Jesper\Documents\ANPR2\Training\2\train
+val: C:\Users\Jesper\Documents\ANPR2\Training\2\val
+
+nc: 1
+
+names: ["number_plate"]

@@ -1,0 +1,386 @@
+[
+  {
+    "Name": "Kenteken",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Voertuigsoort",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Merk",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Handelsbenaming",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Vervaldatum APK",
+    "Type": "Number"
+  },
+  {
+    "Name": "Datum tenaamstelling",
+    "Type": "Number"
+  },
+  {
+    "Name": "Bruto BPM",
+    "Type": "Number"
+  },
+  {
+    "Name": "Inrichting",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Aantal zitplaatsen",
+    "Type": "Number"
+  },
+  {
+    "Name": "Eerste kleur",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Tweede kleur",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Aantal cilinders",
+    "Type": "Number"
+  },
+  {
+    "Name": "Cilinderinhoud",
+    "Type": "Number"
+  },
+  {
+    "Name": "Massa ledig voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Toegestane maximum massa voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Massa rijklaar",
+    "Type": "Number"
+  },
+  {
+    "Name": "Maximum massa trekken ongeremd",
+    "Type": "Number"
+  },
+  {
+    "Name": "Maximum trekken massa geremd",
+    "Type": "Number"
+  },
+  {
+    "Name": "Datum eerste toelating",
+    "Type": "Number"
+  },
+  {
+    "Name": "Datum eerste tenaamstelling in Nederland",
+    "Type": "Number"
+  },
+  {
+    "Name": "Wacht op keuren",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Catalogusprijs",
+    "Type": "Number"
+  },
+  {
+    "Name": "WAM verzekerd",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Maximale constructiesnelheid",
+    "Type": "Number"
+  },
+  {
+    "Name": "Laadvermogen",
+    "Type": "Number"
+  },
+  {
+    "Name": "Oplegger geremd",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aanhangwagen autonoom geremd",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aanhangwagen middenas geremd",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aantal staanplaatsen",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aantal deuren",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aantal wielen",
+    "Type": "Number"
+  },
+  {
+    "Name": "Afstand hart koppeling tot achterzijde voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Afstand voorzijde voertuig tot hart koppeling",
+    "Type": "Number"
+  },
+  {
+    "Name": "Afwijkende maximum snelheid",
+    "Type": "Number"
+  },
+  {
+    "Name": "Lengte",
+    "Type": "Number"
+  },
+  {
+    "Name": "Breedte",
+    "Type": "Number"
+  },
+  {
+    "Name": "Europese voertuigcategorie",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Europese voertuigcategorie toevoeging",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Europese uitvoeringcategorie toevoeging",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Plaats chassisnummer",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Technische max. massa voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Type",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Type gasinstallatie",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Typegoedkeuringsnummer",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Variant",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Uitvoering",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Volgnummer wijziging EU typegoedkeuring",
+    "Type": "Number"
+  },
+  {
+    "Name": "Vermogen massarijklaar",
+    "Type": "Number"
+  },
+  {
+    "Name": "Wielbasis",
+    "Type": "Number"
+  },
+  {
+    "Name": "Export indicator",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Openstaande terugroepactie indicator",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Vervaldatum tachograaf",
+    "Type": "Number"
+  },
+  {
+    "Name": "Taxi indicator",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Maximum massa samenstelling",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aantal rolstoelplaatsen",
+    "Type": "Number"
+  },
+  {
+    "Name": "Maximum ondersteunende snelheid",
+    "Type": "Number"
+  },
+  {
+    "Name": "Jaar laatste registratie tellerstand",
+    "Type": "Number"
+  },
+  {
+    "Name": "Tellerstandoordeel",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Code toelichting tellerstandoordeel",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Tenaamstellen mogelijk",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Vervaldatum APK DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Datum tenaamstelling DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Datum eerste toelating DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Datum eerste tenaamstelling in Nederland DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Vervaldatum tachograaf DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Maximum last onder de vooras(sen) (tezamen)/koppeling",
+    "Type": "Number"
+  },
+  {
+    "Name": "Type remsysteem voertuig code",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Rupsonderstelconfiguratiecode",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Wielbasis voertuig minimum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Wielbasis voertuig maximum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Lengte voertuig minimum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Lengte voertuig maximum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Breedte voertuig minimum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Breedte voertuig maximum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Hoogte voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Hoogte voertuig minimum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Hoogte voertuig maximum",
+    "Type": "Number"
+  },
+  {
+    "Name": "Massa bedrijfsklaar minimaal",
+    "Type": "Number"
+  },
+  {
+    "Name": "Massa bedrijfsklaar maximaal",
+    "Type": "Number"
+  },
+  {
+    "Name": "Technisch toelaatbaar massa koppelpunt",
+    "Type": "Number"
+  },
+  {
+    "Name": "Maximum massa technisch maximaal",
+    "Type": "Number"
+  },
+  {
+    "Name": "Maximum massa technisch minimaal",
+    "Type": "Number"
+  },
+  {
+    "Name": "Subcategorie Nederland",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Verticale belasting koppelpunt getrokken voertuig",
+    "Type": "Number"
+  },
+  {
+    "Name": "Zuinigheidsclassificatie",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Registratie datum goedkeuring (afschrijvingsmoment BPM)",
+    "Type": "Number"
+  },
+  {
+    "Name": "Registratie datum goedkeuring (afschrijvingsmoment BPM) DT",
+    "Type": "Date & Time"
+  },
+  {
+    "Name": "Gemiddelde Lading Waarde",
+    "Type": "Number"
+  },
+  {
+    "Name": "Aerodynamische voorziening of uitrusting",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "Additionele massa alternatieve aandrijving",
+    "Type": "Number"
+  },
+  {
+    "Name": "Verlengde cabine indicator",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "API Gekentekende_voertuigen_assen",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "API Gekentekende_voertuigen_brandstof",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "API Gekentekende_voertuigen_carrosserie",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "API Gekentekende_voertuigen_carrosserie_specifiek",
+    "Type": "Plain Text"
+  },
+  {
+    "Name": "API Gekentekende_voertuigen_voertuigklasse",
+    "Type": "Plain Text"
+  }
+]
