@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "kenteken";
+    src: url("../assets/kenteken.woff") format("woff");
+}
+
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    margin-bottom: 120px;
+}
+
+.video-background {
+    position: relative;
+    z-index: 1;
+}
+
+.content-overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angled-section {
+    background-color: #1c252f;
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    margin-top: -5%;
+    padding: 6rem 1rem;
+}
+
+.angled-section-content {
+    transform: skewY(4deg);
+    transform-origin: top left;
+    margin-top: 10px;
+}
+
+.additional-section {
+    margin-top: 100px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.additional-section .grid article {
+    padding: 1rem;
+}
+
+/* Fixed height for images to align the headings */
+.additional-section .grid img {
+    width: 100%; /* This ensures image responsiveness */
+    height: 200px; /* Adjust this value as needed */
+    object-fit: cover; /* This will cover the area without stretching the image */
+    border-radius: 10px;
+
+}
+
+/* Align the headings to the bottom */
+.additional-section .grid h3 {
+    margin-top: auto;
+}
+
+
+
+/* Additional styles for the new demo design */
+.demo-container {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-upload-container {
+    background-color: #121b22;
+
+    flex-basis: 50%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-upload-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    width: 100%;
+    height: 350px; /* or whatever size you prefer */
+    cursor: pointer;
+}
+
+.upload-prompt {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image-preview {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-preview img {
+    display: none;
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.default-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vehicle-info-container {
+    /*display: flex;*/
+    display: none;
+
+    flex-basis: 50%;
+    padding: 1rem;
+    flex-direction: column;
+
+    background-color: var(--card-background-color);
+}
+
+.license-plate {
+    /* License plate styles */
+    background-color: #ffc516;
+    color: black;
+    border: 1px solid #000;
+    font-size: 2rem;
+
+    width: 300px;
+
+    border-radius: 20px 5px 5px 20px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.license-plate-country {
+    background-color: #3f42ef;
+
+    /*  This needs to be all on the left side of the LP, like on a real LP  */
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.general-info-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.license-plate-content {
+    margin: auto;
+    font-family: "kenteken", sans-serif;
+}
+
+.brand-logo-container {
+    text-align: center;
+    padding: 1rem;
+
+    width: 30%;
+}
+
+.brand-logo {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+.general-info p {
+    font-size: .9rem;
+    margin: 0.5rem 0;
+}
+
+.general-info h2 {
+    margin: 0;
+}
+
+.detailed-info {
+    margin-top: 1rem;
+    background-color: #121b22;
+    overflow: scroll;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.detailed-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detailed-info th,
+.detailed-info td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #292f34;
+    font-size: 0.9rem;
+}
+
+.detailed-info td {
+    text-align: right;
+}
+
+
+@media (max-width: 768px) {
+    .content-overlay {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .angled-section {
+        margin-top: 0;
+        transform: skewY(0);
+    }
+
+    .angled-section-content {
+        transform: skewY(0);
+        padding: 2rem;
+    }
+
+    .additional-section .grid article {
+        padding: 0.5rem;
+    }
+
+    /* Responsive adjustments for live demo section */
+    #demo-form input[type="file"] {
+        width: 100%;
+    }
+}
